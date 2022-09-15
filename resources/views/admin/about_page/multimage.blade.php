@@ -11,7 +11,7 @@
                     <div class="card">
                         <div class="card-body">
 
-                                <h4 class="card-title">About Multi Page</h4><br><br>
+                                <h4 class="card-title">About Multi Image</h4><br><br>
                             <form method="post" action="{{ route('store.multi.image') }}" enctype="multipart/form-data">
                                 @csrf
 

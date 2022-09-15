@@ -10,4 +10,8 @@ class About extends Model
     use HasFactory;
 
     protected $guarded = [];
+
+    public static function findOrFail(mixed $about_id)
+    {
+    }
 }

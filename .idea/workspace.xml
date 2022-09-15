@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c9b62d1-c36e-412b-97e4-d2b9d6f863fd" name="Changes" comment="Work on HTMl">
-      <change afterPath="$PROJECT_DIR$/e -i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about_page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/AboutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/about_page/multimage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/about_page/multimage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin_master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin_master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/body/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/body/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,8 +177,19 @@
       <updated>1662724657826</updated>
       <workItem from="1662724661127" duration="6714000" />
       <workItem from="1662761398908" duration="65000" />
-      <workItem from="1662803576820" duration="945000" />
+      <workItem from="1662803576820" duration="1015000" />
+      <workItem from="1662894287230" duration="352000" />
+      <workItem from="1663095720534" duration="605000" />
+      <workItem from="1663242051019" duration="6219000" />
     </task>
+    <task id="LOCAL-00001" summary="Work on HTMl">
+      <created>1662804525716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662804525717</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
