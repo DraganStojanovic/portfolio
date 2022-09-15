@@ -2306,7 +2306,7 @@ Breadcrumb
             -ms-transform: translate(0, 0);
             transform: translate(0, 0); } }
         .about__icons__wrap li:nth-child(6) img {
-          max-width: 62px; }
+          max-width: 84px; }
       .about__icons__wrap li:nth-child(7) {
         right: 14%;
         bottom: 0;
@@ -2319,7 +2319,7 @@ Breadcrumb
             -ms-transform: translate(0, 0);
             transform: translate(0, 0); } }
         .about__icons__wrap li:nth-child(7) img {
-          max-width: 121px; }
+          max-width: 101px; }
           @media (max-width: 1199.98px) {
             .about__icons__wrap li:nth-child(7) img {
               max-width: 130px; } }
