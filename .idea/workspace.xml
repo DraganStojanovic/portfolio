@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c9b62d1-c36e-412b-97e4-d2b9d6f863fd" name="Changes" comment="Multi Image4-5">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/backend/assets/js/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basic.iml" afterDir="false" />
+    <list default="true" id="5c9b62d1-c36e-412b-97e4-d2b9d6f863fd" name="Changes" comment="Multi Image7-Delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/AboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/AboutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/About.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin_master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin_master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +178,7 @@
       <workItem from="1662803576820" duration="1015000" />
       <workItem from="1662894287230" duration="352000" />
       <workItem from="1663095720534" duration="605000" />
-      <workItem from="1663242051019" duration="7971000" />
+      <workItem from="1663242051019" duration="8715000" />
     </task>
     <task id="LOCAL-00001" summary="Work on HTMl">
       <created>1662804525716</created>
@@ -198,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663249394566</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Multi Image5-6">
+      <created>1663251092164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663251092164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +221,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Work on HTMl" />
     <MESSAGE value="Multi Image4-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multi Image4-5" />
+    <MESSAGE value="Multi Image5-6" />
+    <MESSAGE value="Multi Image7-Delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi Image7-Delete" />
   </component>
 </project>
