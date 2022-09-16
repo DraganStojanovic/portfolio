@@ -13,30 +13,7 @@
 
                     </li>
                     @endforeach
-{{--                    <li>--}}
-{{--                        <img class="light" src="{{ asset('frontend/assets/img/icons/Laravel.png') }}" alt="Skeatch">--}}
-{{--                        <img class="dark" src="{{ asset('frontend/assets/img/icons/skeatch.png') }}" alt="Skeatch">--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <img class="light" src="{{ asset('frontend/assets/img/icons/mysql.png') }}" alt="Illustrator">--}}
-{{--                        <img class="dark" src="{{ asset('frontend/assets/img/icons/illustrator.png') }}" alt="Illustrator">--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <img class="light" src="{{ asset('frontend/assets/img/icons/bootstrap.png') }}" alt="Hotjar">--}}
-{{--                        <img class="dark" src="{{ asset('frontend/assets/img/icons/hotjar.png') }}" alt="Hotjar">--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <img class="light" src="{{ asset('frontend/assets/img/icons/tailwindcss.png') }}" alt="Invision">--}}
-{{--                        <img class="dark" src="{{ asset('frontend/assets/img/icons/invision.png') }}" alt="Invision">--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <img class="light" src="{{ asset('frontend/assets/img/icons/photoshop_light.png') }}" alt="Photoshop">--}}
-{{--                        <img class="dark" src="{{ asset('frontend/assets/img/icons/photoshop.png') }}" alt="Photoshop">--}}
-{{--                    </li>--}}
-{{--                    <li>--}}
-{{--                        <img class="light" src="{{ asset('frontend/assets/img/icons/figma_light.png') }}" alt="Figma">--}}
-{{--                        <img class="dark" src="{{ asset('frontend/assets/img/icons/figma.png') }}" alt="Figma">--}}
-{{--                    </li>--}}
+
                 </ul>
             </div>
             <div class="col-lg-6">
