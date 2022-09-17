@@ -1933,6 +1933,11 @@ Breadcrumb
         bottom: 0; }
         .breadcrumb__wrap__icon ul li:nth-child(6) img {
           max-width: 102px; }
+.breadcrumb__wrap__icon ul li:nth-child(7) {
+    right: 45%;
+    bottom: 0; }
+.breadcrumb__wrap__icon ul li:nth-child(7) img {
+    max-width: 80px; }
 
 /*=============================
 03. Banner

@@ -10,7 +10,6 @@
                     @foreach($allMultiImage as $item)
                     <li>
                         <img class="light" src="{{ asset($item->multi_image) }}" alt="XD">
-
                     </li>
                     @endforeach
 
