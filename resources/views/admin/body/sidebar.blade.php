@@ -52,8 +52,8 @@
                         <span>Portfolio Page Setup</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a class="nav-item {{ Request::path() == "all.portfolio" ? "active" : "" }} href="{{ route('all.portfolio') }}">All Portfolio</a></li>
-                        <li><a class="nav-item {{ Request::path() == "add.portfolio" ? "active" : "" }} href="{{ route('add.portfolio') }}">Add Portfolio</a></li>
+                        <li><a class="nav-item {{ Request::path() == "all.portfolio" ? "active" : "" }}" href="{{ route('all.portfolio') }}">All Portfolio</a></li>
+                        <li><a class="nav-item {{ Request::path() == "add.portfolio" ? "active" : "" }}" href="{{ route('add.portfolio') }}">Add Portfolio</a></li>
                     </ul>
                 </li>
 
