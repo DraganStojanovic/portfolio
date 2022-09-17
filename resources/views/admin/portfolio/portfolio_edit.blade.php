@@ -10,7 +10,7 @@
                     <div class="card">
                         <div class="card-body">
 
-                            <h4 class="card-title">Protfolio Edit Page </h4>
+                            <h2 class="card-title">Protfolio Edit Page </h2><hr>
 
                             <form method="post" action="{{ route('update.portfolio') }}" enctype="multipart/form-data">
                                 @csrf
