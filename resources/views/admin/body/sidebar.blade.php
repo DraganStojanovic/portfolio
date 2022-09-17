@@ -30,7 +30,7 @@
                         <span>Home Slide Setup</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="{{ route('home.slide') }}">Home Slide</a></li>
+                        <li><a class="nav-item {{ Request::path() == "home.slide" ? "active" : "" }}" href="{{ route('home.slide') }}">Home Slide</a></li>
 
                     </ul>
                 </li>
@@ -41,9 +41,9 @@
                         <span>About Page Setup</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="{{ route('about.page') }}">About Page</a></li>
-                        <li><a href="{{ route('about.multi.image') }}">About Multi Image</a></li>
-                        <li><a href="{{ route('all.multi.image') }}">All Multi Image</a></li>
+                        <li><a class="nav-item {{ Request::path() == "about.page" ? "active" : "" }}" href="{{ route('about.page') }}">About Page</a></li>
+                        <li><a class="nav-item {{ Request::path() == "about.multi.image" ? "active" : "" }}" href="{{ route('about.multi.image') }}">About Multi Image</a></li>
+                        <li><a class="nav-item {{ Request::path() == "all.multi.image" ? "active" : "" }}" href="{{ route('all.multi.image') }}">All Multi Image</a></li>
                     </ul>
                 </li>
                 <li>
@@ -52,8 +52,8 @@
                         <span>Portfolio Page Setup</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="{{ route('all.portfolio') }}">All Portfolio</a></li>
-                        <li><a href="{{ route('add.portfolio') }}">Add Portfolio</a></li>
+                        <li><a class="nav-item {{ Request::path() == "all.portfolio" ? "active" : "" }} href="{{ route('all.portfolio') }}">All Portfolio</a></li>
+                        <li><a class="nav-item {{ Request::path() == "add.portfolio" ? "active" : "" }} href="{{ route('add.portfolio') }}">Add Portfolio</a></li>
                     </ul>
                 </li>
 
