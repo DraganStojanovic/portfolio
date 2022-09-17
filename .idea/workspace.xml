@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c9b62d1-c36e-412b-97e4-d2b9d6f863fd" name="Changes" comment="Multi Image8 Show Multi Image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/body/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/body/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/about_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/about_page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/frontend/home_all/home_about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home_all/home_about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/body/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/body/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +184,8 @@
       <workItem from="1663254011822" duration="73000" />
       <workItem from="1663321547879" duration="8237000" />
       <workItem from="1663336052649" duration="4333000" />
+      <workItem from="1663420252462" duration="101000" />
+      <workItem from="1663420382767" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Work on HTMl">
       <created>1662804525716</created>
