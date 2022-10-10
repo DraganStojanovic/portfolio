@@ -80,10 +80,6 @@
                         <li><a href="{{ route('add.blog') }}">Add Blog</a></li>
                     </ul>
                 </li>
-
-
-
-
             </ul>
         </div>
         <!-- Sidebar -->
