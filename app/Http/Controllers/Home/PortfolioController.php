@@ -13,12 +13,12 @@ class PortfolioController extends Controller
     public function AllPortfolio(){
 
         $portfolio = Portfolio::latest()->get();
-        return view('admin.protfolio.protfolio_all',compact('portfolio'));
+        return view('admin.portfolio.portfolio_all',compact('portfolio'));
     } // End Method
 
 
     public function AddPortfolio(){
-        return view('admin.protfolio.protfolio_add');
+        return view('admin.portfolio.portfolio_add');
     } // End Method
 
 
@@ -32,7 +32,7 @@ class PortfolioController extends Controller
         ],[
 
             'portfolio_name.required' => 'Portfolio Name is Required',
-            'portfolio_title.required' => 'Portfolio Titile is Required',
+            'portfolio_title.required' => 'Portfolio Title is Required',
         ]);
 
         $image = $request->file('portfolio_image');
@@ -48,9 +48,9 @@ class PortfolioController extends Controller
                 'portfolio_image' => $save_url,
                 'created_at' => Carbon::now(),
 
-            ]); 
+            ]);
             $notification = array(
-            'message' => 'Portfolio Inserted Successfully', 
+            'message' => 'Portfolio Inserted Successfully',
             'alert-type' => 'success'
         );
 
@@ -63,7 +63,7 @@ class PortfolioController extends Controller
     public function EditPortfolio($id){
 
         $portfolio = Portfolio::findOrFail($id);
-        return view('admin.protfolio.protfolio_edit',compact('portfolio'));
+        return view('admin.portfolio.portfolio_edit',compact('portfolio'));
     }// End Method
 
 
@@ -84,9 +84,9 @@ class PortfolioController extends Controller
                 'portfolio_description' => $request->portfolio_description,
                 'portfolio_image' => $save_url,
 
-            ]); 
+            ]);
             $notification = array(
-            'message' => 'Portfolio Updated with Image Successfully', 
+            'message' => 'Portfolio Updated with Image Successfully',
             'alert-type' => 'success'
         );
 
@@ -98,11 +98,11 @@ class PortfolioController extends Controller
                 'portfolio_name' => $request->portfolio_name,
                 'portfolio_title' => $request->portfolio_title,
                 'portfolio_description' => $request->portfolio_description,
-                 
 
-            ]); 
+
+            ]);
             $notification = array(
-            'message' => 'Portfolio Updated without Image Successfully', 
+            'message' => 'Portfolio Updated without Image Successfully',
             'alert-type' => 'success'
         );
 
@@ -110,7 +110,7 @@ class PortfolioController extends Controller
 
         } // end Else
 
-     } // End Method 
+     } // End Method
 
 
      public function DeletePortfolio($id){
@@ -122,27 +122,27 @@ class PortfolioController extends Controller
         Portfolio::findOrFail($id)->delete();
 
          $notification = array(
-            'message' => 'Portfolio Image Deleted Successfully', 
+            'message' => 'Portfolio Image Deleted Successfully',
             'alert-type' => 'success'
         );
 
-        return redirect()->back()->with($notification);       
+        return redirect()->back()->with($notification);
 
-     }// End Method 
+     }// End Method
 
 
      public function PortfolioDetails($id){
 
         $portfolio = Portfolio::findOrFail($id);
-        return view('frontend.protfolio_details',compact('portfolio'));
-     } // End Method 
+        return view('frontend.portfolio_details',compact('portfolio'));
+     } // End Method
 
 
      public function HomePortfolio(){
 
       $portfolio = Portfolio::latest()->get();
       return view('frontend.portfolio',compact('portfolio'));
-     } // End Method 
+     } // End Method
 
 
 }

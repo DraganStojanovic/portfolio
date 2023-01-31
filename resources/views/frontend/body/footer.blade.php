@@ -11,7 +11,7 @@ $allfooter = App\Models\Footer::find(1);
                     <div class="col-lg-4">
                         <div class="footer__widget">
                             <div class="fw-title">
-                                <h5 class="sub-title">Contact us</h5>
+                                <h5 class="sub-title">Contact Me</h5>
                                 <h4 class="title">{{ $allfooter->number }}</h4>
                             </div>
                             <div class="footer__widget__text">
@@ -23,7 +23,7 @@ $allfooter = App\Models\Footer::find(1);
                         <div class="footer__widget">
                             <div class="fw-title">
                                 <h5 class="sub-title">my address</h5>
-                                <h4 class="title">AUSTRALIA</h4>
+                                <h4 class="title">Serbia</h4>
                             </div>
                             <div class="footer__widget__address">
                                 <p>{{ $allfooter->adress }}</p>
@@ -38,7 +38,7 @@ $allfooter = App\Models\Footer::find(1);
                                 <h4 class="title">socially connect</h4>
                             </div>
                             <div class="footer__widget__social">
-                                <p>Lorem ipsum dolor sit amet enim. <br> Etiam ullamcorper.</p>
+                                <p>Contact me. <br> Best Regards.</p>
     <ul class="footer__social__list">
         <li><a href="{{ $allfooter->facebook }}"><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="{{ $allfooter->twitter }}"><i class="fab fa-twitter"></i></a></li>

@@ -91,9 +91,9 @@
 
     case 'error':
     toastr.error(" {{ Session::get('message') }} ");
-    break; 
+    break;
  }
- @endif 
+ @endif
 </script>
 
 

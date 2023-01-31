@@ -11,7 +11,7 @@
         <div class="card-body">
 
             <h4 class="card-title">Home Slide Page </h4>
-            
+
             <form method="post" action="{{ route('update.slider') }}" enctype="multipart/form-data">
                 @csrf
 
@@ -60,14 +60,14 @@
             <!-- end row -->
 <input type="submit" class="btn btn-info waves-effect waves-light" value="Update Slide">
             </form>
-             
-           
-           
+
+
+
         </div>
     </div>
 </div> <!-- end col -->
 </div>
- 
+
 
 
 </div>
@@ -75,10 +75,10 @@
 
 
 <script type="text/javascript">
-    
+
     $(document).ready(function(){
         $('#image').change(function(e){
-            var reader = new FileReader();
+            const reader = new FileReader();
             reader.onload = function(e){
                 $('#showImage').attr('src',e.target.result);
             }
@@ -88,4 +88,4 @@
 
 </script>
 
-@endsection 
+@endsection

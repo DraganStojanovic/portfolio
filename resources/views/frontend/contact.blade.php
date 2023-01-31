@@ -2,8 +2,13 @@
 @section('main')
 
 @section('title')
-Contact | EasyLearning Website
+Contact | Dragan Stojanovic
 @endsection
+
+@php
+    $aboutpage = App\Models\About::find(1);
+    $allMultiImage = App\Models\MultiImage::all();
+@endphp
 
  <main>
 
@@ -13,10 +18,10 @@ Contact | EasyLearning Website
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8 col-md-10">
                             <div class="breadcrumb__wrap__content">
-                                <h2 class="title">Contact us</h2>
+                                <h2 class="title">Contact me</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Contact</li>
                                     </ol>
                                 </nav>
@@ -26,12 +31,9 @@ Contact | EasyLearning Website
                 </div>
                 <div class="breadcrumb__wrap__icon">
                     <ul>
-                        <li><img src="assets/img/icons/breadcrumb_icon01.png" alt=""></li>
-                        <li><img src="assets/img/icons/breadcrumb_icon02.png" alt=""></li>
-                        <li><img src="assets/img/icons/breadcrumb_icon03.png" alt=""></li>
-                        <li><img src="assets/img/icons/breadcrumb_icon04.png" alt=""></li>
-                        <li><img src="assets/img/icons/breadcrumb_icon05.png" alt=""></li>
-                        <li><img src="assets/img/icons/breadcrumb_icon06.png" alt=""></li>
+                        @foreach($allMultiImage as $item)
+                            <li><img src="{{ asset($item->multi_image) }}" alt=""></li>
+                        @endforeach
                     </ul>
                 </div>
             </section>
@@ -39,8 +41,7 @@ Contact | EasyLearning Website
 
             <!-- contact-map -->
             <div id="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96811.54759587669!2d-74.01263924803828!3d40.6880494567041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2sbd!4v1636195194646!5m2!1sen!2sbd"
-                    allowfullscreen loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2838.0951559158852!2d20.202217315747117!3d44.656407494998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a15a5fb8c2bd3%3A0xf04c135f53409fd4!2sObrenovac!5e0!3m2!1sen!2srs!4v1667389721789!5m2!1sen!2srs" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <!-- contact-map-end -->
 
@@ -65,7 +66,7 @@ Contact | EasyLearning Website
             </div>
         </div>
         <textarea name="message" id="message" placeholder="Enter your massage*"></textarea>
-        <button type="submit" class="btn">send massage</button>
+        <button type="submit" class="btn">Send massage</button>
     </form>
                 </div>
             </div>
@@ -82,7 +83,7 @@ Contact | EasyLearning Website
                                 </div>
                                 <div class="contact__info__content">
                                     <h4 class="title">address line</h4>
-                                    <span>Bowery St, New York, <br> NY 10013,USA</span>
+                                    <span>Vojvode Misic 43v, 11500 Obrenovac, <br> Belgrade, SERBIA</span>
                                 </div>
                             </div>
                         </div>
@@ -93,8 +94,7 @@ Contact | EasyLearning Website
                                 </div>
                                 <div class="contact__info__content">
                                     <h4 class="title">Phone Number</h4>
-                                    <span>+1255 - 568 - 6523</span>
-                                    <span>+1255 - 568 - 6523</span>
+                                    <span>+38165 2210 976</span>
                                 </div>
                             </div>
                         </div>
@@ -105,8 +105,8 @@ Contact | EasyLearning Website
                                 </div>
                                 <div class="contact__info__content">
                                     <h4 class="title">Mail Address</h4>
-                                    <span>email@example.com</span>
-                                    <span>info@yourdomain.com</span>
+                                    <span>draganstojanovic3@gmail.com</span>
+                                    <span>draganstojanovic3@hotmail.com</span>
                                 </div>
                             </div>
                         </div>
@@ -122,12 +122,12 @@ Contact | EasyLearning Website
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="section__title">
-                                    <span class="sub-title">07 - Say hello</span>
+                                    <span class="sub-title">Hello</span>
                                     <h2 class="title">Any questions? Feel free <br> to contact</h2>
                                 </div>
                                 <div class="homeContact__content">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                    <h2 class="mail"><a href="mailto:Info@webmail.com">Info@webmail.com</a></h2>
+                                    <p>Feel free to contac me!</p>
+                                    <h2 class="mail"><a href="mailto:draganstojanovic3@gmail.com">draganstojanovic3@gmail.com</a></h2>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -148,13 +148,5 @@ Contact | EasyLearning Website
             <!-- contact-area-end -->
 
         </main>
-
-
-
-
-
-
-
-
 
 @endsection

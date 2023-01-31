@@ -1933,6 +1933,11 @@ Breadcrumb
         bottom: 0; }
         .breadcrumb__wrap__icon ul li:nth-child(6) img {
           max-width: 102px; }
+.breadcrumb__wrap__icon ul li:nth-child(7) {
+    right: 45%;
+    bottom: 0; }
+.breadcrumb__wrap__icon ul li:nth-child(7) img {
+    max-width: 80px; }
 
 /*=============================
 03. Banner
@@ -2237,6 +2242,7 @@ Breadcrumb
             transform: translate(0, 0); } }
         .about__icons__wrap li:nth-child(1) img {
           max-width: 91.5px; }
+
       .about__icons__wrap li:nth-child(2) {
         right: 15%;
         top: 11px;
@@ -2292,7 +2298,7 @@ Breadcrumb
             -ms-transform: translate(0, 0);
             transform: translate(0, 0); } }
         .about__icons__wrap li:nth-child(5) img {
-          max-width: 46.5px; }
+          max-width: 76.5px; }
       .about__icons__wrap li:nth-child(6) {
         left: 18%;
         bottom: 5%;
@@ -2305,7 +2311,7 @@ Breadcrumb
             -ms-transform: translate(0, 0);
             transform: translate(0, 0); } }
         .about__icons__wrap li:nth-child(6) img {
-          max-width: 62px; }
+          max-width: 84px; }
       .about__icons__wrap li:nth-child(7) {
         right: 14%;
         bottom: 0;
@@ -2318,7 +2324,7 @@ Breadcrumb
             -ms-transform: translate(0, 0);
             transform: translate(0, 0); } }
         .about__icons__wrap li:nth-child(7) img {
-          max-width: 171px; }
+          max-width: 101px; }
           @media (max-width: 1199.98px) {
             .about__icons__wrap li:nth-child(7) img {
               max-width: 130px; } }
@@ -2957,7 +2963,7 @@ Breadcrumb
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 50%;
     height: 100%;
     background: #F7F7F7;
