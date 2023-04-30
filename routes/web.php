@@ -69,6 +69,8 @@ Route::controller(AboutController::class)->group(function () {
     //    Route::get('/delete/multi/image/{id}', 'DeleteMultiImage')->name('delete.multi.image');
     //    Route::get('/delete/multi/image/{id}', 'DeleteMultiImage')->name('delete.multi.image');
     //    Route::get('/delete/multi/image/{id}', 'DeleteMultiImage')->name('delete.multi.image');
+    //    Route::get('/delete/multi/image/{id}', 'DeleteMultiImage')->name('delete.multi.image');
+    
 
 
 });
