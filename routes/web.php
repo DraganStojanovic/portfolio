@@ -37,7 +37,7 @@ Route::controller(AdminController::class)->group(function () {
 
     Route::get('/change/password', 'ChangePassword')->name('change.password');
     Route::post('/update/password', 'UpdatePassword')->name('update.password');
-    
+
 });
 
 });
@@ -64,6 +64,7 @@ Route::controller(AboutController::class)->group(function () {
 
     Route::post('/update/multi/image', 'UpdateMultiImage')->name('update.multi.image');
    Route::get('/delete/multi/image/{id}', 'DeleteMultiImage')->name('delete.multi.image');
+//    Route::get('/delete/multi/image/{id}', 'DeleteMultiImage')->name('delete.multi.image');
 
 });
 
