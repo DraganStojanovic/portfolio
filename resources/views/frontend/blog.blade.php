@@ -2,7 +2,7 @@
 @section('main')
 
     @section('title')
-        My Blog
+        My Blog Posts My Blog Posts My Blog Posts
     @endsection
 
     @php
