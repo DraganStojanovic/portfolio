@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <p class="desc">{{ $aboutpage->short_description }}</p>
-                    <a href="{{ asset('upload/cv/DraganStojanovic3CV.pdf') }}" class="btn">Download my resume</a>
+                    <a href="{{ asset('upload/cv/DraganStojanovic3CV.pdf') }}" class="btn">Download my CV</a>
                 </div>
             </div>
         </div>
