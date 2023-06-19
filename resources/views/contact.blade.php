@@ -9,6 +9,6 @@
 </head>
 <body>
 <h1>THIS IS CONTACT PAGE from controller make wish!!!</h1>
-<a href="{{ route('about.page') }}"> About </a>
+<a href="{{ route('about.page') }}"> About Meee</a>
 </body>
 </html>
